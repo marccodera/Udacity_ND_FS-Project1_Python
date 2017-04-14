@@ -19,21 +19,22 @@ def create_movies():
     Returns:
         An array of movies instances created inside the function.
     """
+
     # Declare Movie instance for Toy Story using media class
-    toy_story = media.Movie("Toy Story",
-                            "A story of a boy and his toys that come to life",
-                            "http://www.impawards.com/1995/posters/toy_story_ver1.jpg", # NOQA
-                            "https://youtu.be/KYz2wyBy3kc")
+    cinema_paradiso = media.Movie("Cinema Paradiso",
+                                  "A story of a boy and his passion for movies",
+                                  "http://www.fotogramas.es/var/ezflow_site/storage/images/peliculas/cinema-paradiso/10324-1-esl-ES/Cinema-Paradiso1.jpg", # NOQA
+                                  "https://youtu.be/maV1ZYdAExw")
     # Declare Movie instance for Avatar using media class
-    avatar = media.Movie("Avatar",
-                         "A marine on an alien planet",
-                         "https://upload.wikimedia.org/wikipedia/id/b/b0/Avatar-Teaser-Poster.jpg", # NOQA
-                         "https://youtu.be/5PSNL1qE6VY")
+    the_godfather = media.Movie("The Godfather",
+                                "Story of most powerful mafia clan in NY",
+                                "https://s-media-cache-ak0.pinimg.com/736x/40/b4/21/40b421c7cfe1b3059d5e50d79e968270.jpg", # NOQA
+                                "https://youtu.be/5DO-nDW43Ik")
     # Declare Movie instance for City Of God using media class
     city_of_god = media.Movie("City Of God",
-                            "Two little kids become big gangsters in Sao Paulo",
-                            "http://es.web.img3.acsta.net/medias/nmedia/18/68/09/00/20071863.jpg", # NOQA
-                            "https://youtu.be/NN14_5fyXmk")
+                              "Two little kids become big gangsters in Sao Paulo",
+                              "http://es.web.img3.acsta.net/medias/nmedia/18/68/09/00/20071863.jpg", # NOQA
+                              "https://youtu.be/NN14_5fyXmk")
     # Declare Movie instance for Life Of Pi using media class
     life_of_pi = media.Movie("Life Of Pi",
                              "Life of a long term lost person in the sea",
@@ -49,9 +50,9 @@ def create_movies():
                             "Life of a long term lost person in the sea",
                             "https://s-media-cache-ak0.pinimg.com/236x/fc/12/81/fc12814f7f32b766409faf48df15ddf0.jpg", # NOQA
                             "https://youtu.be/9gvqpFbRKtQ")
-    
+
     # Creates movies Array with the instances created before
-    movies = [city_of_god, life_of_pi, lord_of_the_rings, star_wars, toy_story, avatar]
+    movies = [city_of_god, life_of_pi, lord_of_the_rings, star_wars, cinema_paradiso, the_godfather]
 
     return movies # Returns movies Array declared just before
 

@@ -6,7 +6,7 @@ class Movie():
 
     Functions:
         __init__(): Constructor that fills Movie variables
-        show_trailer(): Opens the YouTube URL to show the trailer 
+        show_trailer(): Opens the YouTube URL to show the trailer
     """
 
     # Constructor of the class, declared here with all of the properties
