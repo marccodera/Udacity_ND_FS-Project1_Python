@@ -1,6 +1,8 @@
 import webbrowser
 
-# Class Movie declares the data structure and functions for movies to be displayed
+
+# Class Movie declares the data structure
+# and functions for movies to be displayed
 class Movie():
     """ Declares the data structure and functions for movies to be displayed.
 
@@ -18,8 +20,8 @@ class Movie():
         Variables:
             title (str): The Movie title given by movie_title
             storyline (str): The Movie storyline given by movie_storyline
-            poster_image_url (str): The Movie poster image given by poster_image
-            trailer_youtube_url (str): YouTube trailer URL set by trailer_youtube
+            poster_image_url (str): The Movie poster given by poster_image
+            trailer_youtube_url (str): YouTube trailer URL by trailer_youtube
         """
         self.title = movie_title
         self.storyline = movie_storyline
